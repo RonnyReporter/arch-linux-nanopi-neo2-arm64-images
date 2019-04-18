@@ -21,11 +21,13 @@ Good luck, and have fun!
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
 
 ##### Tweaks:
-- To disable (most) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
-- To get the latest 5.x kernel install the `linux-aarch64-rc` package.
+1. To disable (most of) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
+2. To get the latest 5.x kernel install the `linux-aarch64-rc` package.
 
 ##### Wireless:
-- Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s). Don't forget to enable your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
+1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
+
+   Don't forget to enable your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
 
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
