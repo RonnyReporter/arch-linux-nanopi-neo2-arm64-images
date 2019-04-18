@@ -20,6 +20,8 @@ Good luck, and have fun!
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
 
+To disable the annoying audit messages on the console run `sudo systemctl mask systemd-journald-audit.socket` to silence them. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
+___
 Notes/to-do
 1. Automatically expand filesystem on first boot?
 2. Try and detect v1.1 boards and make them work at 1.3ghz (kernel/boot-args/dts+dtb)
