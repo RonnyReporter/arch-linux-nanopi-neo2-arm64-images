@@ -3,7 +3,7 @@ These images are made using the great work by @mbouron found [here](https://gith
 This is for those who don't want or can't download and install crosstool-ng or other dependencies or just want an easy way to try Arch out on the NEO2.
 
 This is an unmodified [-current](http://archlinuxarm.org/os/) Arch Linux arm64 rootfs written to a 1.5GB image file.
-Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
+Create sd card with something like Etcher and then resize the partition on your sd card, gparted is great for it.
 
 **Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).**
 
@@ -19,7 +19,7 @@ Good luck, and have fun!
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
 
-**Please note:** Thermals and cpufreqency scaling is still missing from the current 5.1.x kernel. It should be fine but there's way to monitor if the cpu scaling is working or monitor cpu temps.
+**Please note:** Thermals and cpu frequency scaling is still missing from the current 5.1.x kernel. It should be fine but there's currently **no way** to monitor cpu temps or check on freqeuency scaling. Hopefulyl this will be added to the Arch kernel but it may require compiling a NEO2 specfific kernel.
 
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
