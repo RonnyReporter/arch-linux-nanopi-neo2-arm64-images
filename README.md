@@ -8,7 +8,8 @@ Create sd card with something like Etcher and then resize the partion on your sd
 
 One booted please run the follow commands as root:
 ```pacman-key --init
-pacman-key --populate archlinuxarm```
+pacman-key --populate archlinuxarm
+```
 
 Good luck, and have fun!
 
