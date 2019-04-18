@@ -14,11 +14,14 @@ pacman-key --populate archlinuxarm
 pacman -Syu
 ```
 Good luck, and have fun!
-![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
 | Image name | SHA256 | Size |
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
+
+**Please note:** Thermals and cpufreqency scaling is still missing from the current 5.1.x kernel. It should be fine but there's way to monitor if the cpu scaling is working or monitor cpu temps.
+
+![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
 ##### Tweaks:
 1. To disable (most of) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
