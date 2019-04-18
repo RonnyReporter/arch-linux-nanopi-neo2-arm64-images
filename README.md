@@ -5,7 +5,7 @@ This is for those who don't want or can't download and install crosstool-ng or o
 This is an unmodified [-current](http://archlinuxarm.org/os/) Arch Linux arm64 rootfs written to a 1.5GB image file.
 Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
 
-Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).
+### Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).
 
 Once booted please login with **alarm**/**alarm** then su to root with password **root** and run the follow commands:
 ```
