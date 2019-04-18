@@ -1,8 +1,8 @@
 # Arch Linux for NanoPi NEO2
-The images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2).
+These images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2).
 This is for those who don't want or can't download and install crosstool-ng or other dependencies or just want an easy way to try Arch out on the NEO2.
 
-This is an unmodified -current arch linux rootfs and written to a 1.5GB image file.
+This is an unmodified -current arch arm64 linux rootfs written to a 1.5GB image file.
 Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
 
 Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).
@@ -32,7 +32,7 @@ Good luck, and have fun!
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
 ___
-Notes/to-do
+###### Notes/to-do:
 
 This is my first *"project"* on Github, please be gentle.
 
