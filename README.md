@@ -40,5 +40,5 @@ This is my first *"project"* on Github, be gentle and please don't look at all t
 
 1. Automatically expand filesystem on first boot?
 2. Try and detect v1.1 boards and make them work at 1.3ghz (kernel/boot-args/dts+dtb)
-3. ????
-4. Profit!
+3. Thermals
+4. CPU scaling
