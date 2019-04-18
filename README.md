@@ -1,5 +1,5 @@
 # Arch Linux (images) for NanoPi NEO2
-These images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2).
+These images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2) (my [fork](https://github.com/RonnyReporter/archlinuxarm-nanopi-neo2) with some small fixes).
 This is for those who don't want or can't download and install crosstool-ng or other dependencies or just want an easy way to try Arch out on the NEO2.
 
 This is an unmodified [-current](http://archlinuxarm.org/os/) Arch Linux arm64 rootfs written to a 1.5GB image file.
