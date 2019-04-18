@@ -22,6 +22,7 @@ Good luck, and have fun!
 
 ##### Tweaks:
 - To disable (most) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
+- To get the latest 5.x kernel install the `linux-aarch64-rc` package.
 
 ##### Wireless:
 - Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s). Don't forget to enable your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
