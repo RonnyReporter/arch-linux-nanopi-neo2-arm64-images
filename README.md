@@ -1,4 +1,4 @@
-# Arch Linux for NanoPi NEO2 board
+# Arch Linux for NanoPi NEO2
 The images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2).
 This is for those who don't or can't download and install crosstool-ng or other dependencies.
 
@@ -19,3 +19,9 @@ Good luck, and have fun!
 | Image name | SHA256 | Size |
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
+
+Notes/to-do
+1. Automatically expand filesystem on first boot?
+2. Try and detect v1.1 boards and make them work at 1.3ghz (kernel/boot-args/dts+dtb)
+3. ????
+4. Profit!
