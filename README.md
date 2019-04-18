@@ -2,14 +2,16 @@
 The images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2).
 This is for those who don't or can't download and install crosstool-ng or other dependencies.
 
-Login/passwords are root/root and alaram/alarm.
 This is an unmodified -current arch linux rootfs and written to a 1.5GB image file.
 Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
 
-One booted please run the follow commands as root:
+Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).
+
+Once booted please login with **alarm**/**alarm** then su to root with password **root** and run the follow commands:
 ```
 pacman-key --init
 pacman-key --populate archlinuxarm
+pacman -Syu
 ```
 
 Good luck, and have fun!
