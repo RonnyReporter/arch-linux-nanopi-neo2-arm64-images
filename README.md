@@ -13,11 +13,8 @@ pacman-key --init
 pacman-key --populate archlinuxarm
 pacman -Syu
 ```
-
 Good luck, and have fun!
-
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
-
 | Image name | SHA256 | Size |
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
