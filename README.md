@@ -16,6 +16,8 @@ pacman -Syu
 
 Good luck, and have fun!
 
+![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
+
 | Image name | SHA256 | Size |
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
@@ -28,8 +30,6 @@ Good luck, and have fun!
 1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
 
    Don't forget to enable your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
-
-![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
 ___
 ###### Notes/to-do:
