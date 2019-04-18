@@ -6,6 +6,10 @@ Login/passwords are root/root and alaram/alarm.
 This is an unmodified -current arch linux rootfs and written to a 1.5GB image file.
 Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
 
+One booted please run the follow commands as root:
+```pacman-key --init
+pacman-key --populate archlinuxarm```
+
 Good luck, and have fun!
 
 | Image name | SHA256 | Size |
