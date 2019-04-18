@@ -19,7 +19,7 @@ Good luck, and have fun!
 | ---------- |--------|------|
 | arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
 
-**Please note:** Thermals and cpu frequency scaling is still missing from the current 5.1.x kernel. It should be fine but there's currently **no way** to monitor cpu temps or check on freqeuency scaling. Hopefulyl this will be added to the Arch kernel but it may require compiling a NEO2 specfific kernel.
+**Please note:** Thermals and cpu frequency scaling is still missing from the current 5.1.x kernel. It should be fine but there's currently **no way** to monitor cpu temps or check on frequency scaling. Hopefully this will be added to the Arch kernel but it may require compiling a NEO2 specific kernel.
 
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
