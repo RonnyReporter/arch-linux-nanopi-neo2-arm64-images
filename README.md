@@ -1,11 +1,11 @@
-# Arch Linux for NanoPi NEO2
+# Arch Linux (images) for NanoPi NEO2
 These images are made using the great work by @mbouron found [here](https://github.com/mbouron/archlinuxarm-nanopi-neo2).
 This is for those who don't want or can't download and install crosstool-ng or other dependencies or just want an easy way to try Arch out on the NEO2.
 
 This is an unmodified [-current](http://archlinuxarm.org/os/) Arch Linux arm64 rootfs written to a 1.5GB image file.
 Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
 
-### Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).
+**Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).**
 
 Once booted please login with **alarm**/**alarm** then su to root with password **root** and run the follow commands:
 ```
@@ -23,11 +23,12 @@ Good luck, and have fun!
 ##### Tweaks:
 1. To disable (most of) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
 2. To get the latest 5.x kernel install the `linux-aarch64-rc` package.
+3. Install the package *yay* to easily install AUR packages such as *localepurge*.
 
-##### Wireless:
+##### Networking:
 1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
 
-   Don't forget to enable your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
+   Don't forget to *start* and also *enable* your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
 
 ___
 ###### Notes/to-do:
