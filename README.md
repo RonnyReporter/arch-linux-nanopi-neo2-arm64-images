@@ -23,7 +23,7 @@ Good luck, and have fun!
 ##### Tweaks:
 1. To disable (most of) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
 2. To get the latest 5.x kernel install the `linux-aarch64-rc` package.
-3. Install the package *yay* to easily install AUR packages such as *localepurge*.
+3. Install *[yay](https://github.com/Jguer/yay)* to easily install AUR packages such as *localepurge*.
 
 ##### Networking:
 1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
