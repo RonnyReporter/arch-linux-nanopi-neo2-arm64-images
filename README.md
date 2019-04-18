@@ -7,3 +7,7 @@ This is an unmodified -current arch linux rootfs and written to a 1.5GB image fi
 Create sd card with something like Etcher and then resize the partion on your sd card, gparted is great for it.
 
 Good luck, and have fun!
+
+| Image name | SHA256 | Size |
+| ---------- |--------|------|
+| arch-arm-current-12042019.img.xz | d354bf017b528b5dba7a502d3879de749a54ea7b94be94e6af4251232a2126fd | 305MB |
