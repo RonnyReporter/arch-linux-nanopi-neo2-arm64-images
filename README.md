@@ -24,7 +24,7 @@ Good luck, and have fun!
 - To disable the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
 
 ##### Wireless:
-- Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
+- Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s). Don't forget to enable your network profile(s) with `netctl enable *profilename*`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
 
 ___
 Notes/to-do
