@@ -32,7 +32,14 @@ Good luck, and have fun!
 1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
 
    Don't forget to *start* and also *enable* your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
+2. Disable systemd networking stuff as it sometimes gets in the way of netctl;
 
+    ```
+    systemctl disable systemd-resolved.service
+    systemctl disable systemd-networkd.service
+    rm /etc/resolv.conf # delete symlink, file will be regenerated when dhcp client runs again. See /etc/resolvconf.conf.
+    ```
+3. Install some additional packages like `iptables` `iproute2` `wavemon` to complete the networking stack.
 ___
 ###### Notes/to-do:
 
