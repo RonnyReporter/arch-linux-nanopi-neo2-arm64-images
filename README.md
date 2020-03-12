@@ -40,6 +40,9 @@ cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "$((cpu/1000)) c"
     systemctl disable systemd-networkd.service
     ```
 3. Install some additional packages like `iptables` `iproute2` `wavemon` to complete the networking stack.
+
+For quick and easy dhcp on eth0 execute ``cp /etc/netctl/examples/ethernet-dhcp /etc/netctl/eth0 && netctl enable eth0 && netctl start eth0``
+
 ___
 ###### Notes/to-do:
 
