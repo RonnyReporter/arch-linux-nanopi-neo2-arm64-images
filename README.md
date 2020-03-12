@@ -7,7 +7,7 @@ Create sd card with something like Etcher. It is (pretty much) required to resiz
 
 **Download the latest image [here](https://github.com/RonnyReporter/nanopi-neo2-arch/releases).**
 
-Once booted please login with **alarm**/**alarm** then su to root with password **root** and run the follow commands:
+Write to an sd card and once booted please login with **alarm**/**alarm** then su to root with password **root** and run the follow commands:
 ```
 pacman-key --init
 pacman-key --populate archlinuxarm
