@@ -15,14 +15,19 @@ pacman -Syu
 ```
 Good luck, and have fun!
 
-**Please note:** Thermals and cpu frequency scaling are missing from the current 5.x kernel/dtb. It should be fine but there's currently **no way** to monitor cpu temps or check on frequency scaling. Hopefully this will be added to the Arch kernel but it may require compiling a NEO2 specific kernel and/or applying correct dtb/overlays. I haven't ran any thermal issues using the stock heatsink.
+**Please note:** cpu frequency scaling is missing from the current 5.x kernel/dtb. Hopefully this will be added to the Arch kernel but it may require compiling a NEO2 specific kernel and/or applying correct dtb/overlays. I haven't ran any thermal issues using the stock heatsink. Monitoring temperatures can be done with the latest -rc kernel (see below).
 
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
 ##### Tweaks:
 1. To disable (most of) the annoying audit messages on the console run `systemctl mask systemd-journald-audit.socket` as root to silence them.
-2. To get the latest 5.x kernel install the `linux-aarch64-rc` package.
+2. For thermals to work you need to get the latest 5.x kernel install the `linux-aarch64-rc` package.
 3. Install *[yay](https://github.com/Jguer/yay)* to easily install AUR packages such as *localepurge*.
+
+Checking temperatures:
+
+cpu=$(</sys/class/thermal/thermal_zone0/temp) && echo "$((cpu/1000)) c"
+cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "$((cpu/1000)) c"
 
 ##### Networking:
 1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
