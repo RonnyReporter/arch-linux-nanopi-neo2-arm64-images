@@ -30,7 +30,7 @@ cpu=$(</sys/class/thermal/thermal_zone0/temp) && echo "$((cpu/1000)) c"
 cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "$((cpu/1000)) c"
 
 ##### Networking:
-1. Install dialog and wpa supplicant with `pacman -S dialog wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
+1. Wifi: we need to run `pacman -S dialog crda wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
 
    Don't forget to *start* and also *enable* your network profile(s) with `netctl enable profile-name`, for more information check out [this](https://wiki.archlinux.org/index.php/Netctl#Configuration) page.
 2. Disable systemd networking stuff as it sometimes gets in the way of netctl;
