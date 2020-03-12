@@ -33,7 +33,6 @@ Good luck, and have fun!
     ```
     systemctl disable systemd-resolved.service
     systemctl disable systemd-networkd.service
-    rm /etc/resolv.conf # delete symlink, file will be regenerated when dhcp client runs again. See /etc/resolvconf.conf.
     ```
 3. Install some additional packages like `iptables` `iproute2` `wavemon` to complete the networking stack.
 ___
