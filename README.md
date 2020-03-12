@@ -15,7 +15,7 @@ pacman -Syu
 ```
 Good luck, and have fun!
 
-**Please note:** Thermals and cpu frequency scaling are missing from the current 5.x kernel/dtb. It should be fine but there's currently **no way** to monitor cpu temps or check on frequency scaling. Hopefully this will be added to the Arch kernel but it may require compiling a NEO2 specific kernel. I haven't ran any thermal issues using the stock heatsink.
+**Please note:** Thermals and cpu frequency scaling are missing from the current 5.x kernel/dtb. It should be fine but there's currently **no way** to monitor cpu temps or check on frequency scaling. Hopefully this will be added to the Arch kernel but it may require compiling a NEO2 specific kernel and/or applying correct dtb/overlays. I haven't ran any thermal issues using the stock heatsink.
 
 ![alt text](https://github.com/RonnyReporter/nanopi-neo2-arch/blob/master/screenie.png?raw=true)
 
@@ -45,4 +45,4 @@ This is my first *"project"* on Github, be gentle and please don't look at all t
 - Try and detect v1.1 boards and make them work at 1.3ghz (kernel/boot-args/dts+dtb)
 - Thermals
 - CPU scaling
-- ee how Armbian does it ;-)
+- See how Armbian does it ;-)
