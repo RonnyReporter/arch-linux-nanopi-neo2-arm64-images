@@ -33,7 +33,7 @@ Checking temperatures:
    cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "Zone1: $((cpu/1000))c"
 ```
 
-If you need compile kernel modules run this command; ``pacman -S fakeroot dkms linux-aarch64-rc-headers``
+If you need compile kernel modules run this command; ``pacman -S base-devel fakeroot dkms linux-aarch64-rc-headers``
 
 Bewildered by pacman? This helped me a lot: https://wiki.archlinux.org/index.php/Pacman/Rosetta
 
