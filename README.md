@@ -35,6 +35,8 @@ Checking temperatures:
 
 If you need compile kernel modules run this command; ``pacman -S fakeroot dkms linux-aarch64-rc-headers``
 
+Bewildered by pacman? This helped me a lot: https://wiki.archlinux.org/index.php/Pacman/Rosetta
+
 ##### Networking:
 1. Wifi: we need to run `pacman -S dialog crda wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
 
