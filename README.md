@@ -29,6 +29,8 @@ Checking temperatures:
 cpu=$(</sys/class/thermal/thermal_zone0/temp) && echo "$((cpu/1000)) c"
 cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "$((cpu/1000)) c"
 
+If you need compile kernel modules run this command; ``pacman -S fakeroot dkms linux-aarch64-rc-headers``
+
 ##### Networking:
 1. Wifi: we need to run `pacman -S dialog crda wpa_supplicant` to make the **wifi-menu** application work. This allows for an easy configuration of your wireless connection(s).
 
