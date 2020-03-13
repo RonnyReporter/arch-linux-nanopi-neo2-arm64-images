@@ -25,9 +25,13 @@ Good luck, and have fun!
 3. Install *[yay](https://github.com/Jguer/yay)* to easily install AUR packages such as *localepurge*.
 
 Checking temperatures:
-
-cpu=$(</sys/class/thermal/thermal_zone0/temp) && echo "$((cpu/1000)) c"
-cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "$((cpu/1000)) c"
+/usr/local/bin/temp.sh:
+```
+   #!/bin/sh
+   #
+   cpu=$(</sys/class/thermal/thermal_zone0/temp) && echo "Zone0: $((cpu/1000))c"
+   cpu=$(</sys/class/thermal/thermal_zone1/temp) && echo "Zone1: $((cpu/1000))c"
+```
 
 If you need compile kernel modules run this command; ``pacman -S fakeroot dkms linux-aarch64-rc-headers``
 
