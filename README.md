@@ -51,7 +51,7 @@ Bewildered by pacman? This helped me a lot: https://wiki.archlinux.org/index.php
 
 For quick and easy dhcp on eth0 execute ``cp /etc/netctl/examples/ethernet-dhcp /etc/netctl/eth0 && netctl enable eth0 && netctl start eth0``
 
-Sometimes /etc/resolv.conf gets deleted after disable systemd networking stuff. Simply create a new one like this one using quid 9 and Cloudflare:
+Sometimes /etc/resolv.conf gets deleted after disable systemd networking stuff. Simply create a new one like this one using quad 9 and Cloudflare:
 ```
    options edns0
    search lan
