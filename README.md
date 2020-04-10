@@ -70,6 +70,5 @@ This is my first *"project"* on Github, be gentle and please don't look at all t
 
 - Automatically expand filesystem on first boot?
 - Try and detect v1.1 boards and make them work at 1.3ghz (kernel/boot-args/dts+dtb)
-- Thermals
 - CPU scaling
 - See how Armbian does it ;-)
